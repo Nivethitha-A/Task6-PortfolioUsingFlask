@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="hero">
+<div class="hero-inner">
+<h1>Hi, I'm <span class="accent">Nivethitha</span> 👋</h1>
+<p class="lead">CSE Student | Full-Stack Developer | Cloud & AI Enthusiast</p>
+<p>I build web apps, experiment with cloud technologies, and love solving problems through code.</p>
+<div class="hero-cta">
+<a class="btn" href="/about">View My Story</a>
+<a class="btn outline" href="/contact">Contact Me</a>
+</div>
+</div>
+</section>
+
+
+<section class="section skills-section">
+<h2>Skills</h2>
+<div class="skills-grid">
+<div class="skill-card">
+<h3>Languages</h3>
+<p>C, C++, Java, Python</p>
+</div>
+<div class="skill-card">
+<h3>Frontend</h3>
+<p>HTML, CSS, JavaScript, React.js</p>
+</div>
+<div class="skill-card">
+<h3>Backend</h3>
+<p>Node.js, Express.js, Flask</p>
+</div>
+<div class="skill-card">
+<h3>Databases & Cloud</h3>
+<p>MongoDB, SQL, AWS IoT, Kinesis</p>
+</div>
+</div>
+</section>
+
+
+<section class="section projects-section">
+<h2>Projects</h2>
+<div class="projects-grid">
+<article class="project">
+<h3>SignCloud — Real-time Sign Language Translator</h3>
+<p><strong>Tech:</strong> HTML, CSS, JS, MediaPipe Hands, WebRTC</p>
+<p>Virtual classroom app that recognizes 20+ gestures and translates them to text and emoji reactions in real time. Includes live chat and video grid layout for classroom experience.</p>
+</article>
+
+
+<article class="project">
+<h3>Mood Journal Web App</h3>
+<p><strong>Tech:</strong> Node.js, Express.js, MongoDB, JWT, HTML/CSS/JS</p>
+<p>Full-stack journaling platform with secure authentication, mood logging, and history view.</p>
+</article>
+</div>
+<div class="more-link"><a href="/about" class="btn outline">See more details & internships</a></div>
+</section>
+{% endblock %}
+
+

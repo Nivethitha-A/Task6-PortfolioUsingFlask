@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="section contact-section">
+<h2>Contact Me</h2>
+<p>Phone: <strong>8248696527</strong> • Email: <strong>nivethithaa.cse2024@citchennai.net</strong></p>
+
+
+<form method="post" action="/contact" class="contact-form">
+<label for="name">Name</label>
+<input id="name" name="name" type="text" required>
+
+
+<label for="email">Email</label>
+<input id="email" name="email" type="email" required>
+
+
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="6" required></textarea>
+
+
+<button type="submit" class="btn">Send Message</button>
+</form>
+</section>
+{% endblock %}
